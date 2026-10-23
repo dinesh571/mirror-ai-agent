@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+mirenv/
+.venv/
+venv/
+
+# Local model weights and Ollama/Hugging Face caches
+/models/
+ollama/
+.ollama/
+**/.cache/
+*.gguf
+*.ggml
+*.safetensors
+
+# Local credentials and environment settings
+.env
+.env.*
+
+# IDE state and generated temporary files
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.swp
+*.swo
+*.tmp
+*.log
+*.bak
+.DS_Store
+Thumbs.db
